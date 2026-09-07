@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 10. Pseudo Element Selector -> S::???? */
+      h1::first-letter{
+        color: rgb(255, 166, 0);
+        font-size: 50px;
+      }
+      input::placeholder{
+        color: red;
+      }
+      /* 11. Pseudo Class Selector -> S:?????*/
+      a:hover{
+        background-color: rgb(119, 255, 0);
+        font-size: 50px;
+      }
+      /* 12. Attribute class Selector */
+      input[type="text"]{
+        background-color: yellow;
+      }
+      input[type="password"]{
+        background-color: green;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to DTI-SAU (12)</h1>
+    <a href="http://www.sanook.com">SANOOK</a>
+    <br><br>
+    <label for="">ชื่อ</label>
+    <input type="text" name="" id="" placeholder="yourname" />
+    <br /><br />
+    <label for="">นามสกุล</label>
+    <input type="text" name="" id="">
+    <br /><br />
+    <label for="">รหัสผ่าน</label>
+    <input type="password" name="" id="">
+    <br /><br />
+    <input type="submit" value="ตกลง">
+    <input type="reset" value="ยกเลิก">
+  </body>
+</html>
